@@ -15,7 +15,7 @@ If you want to follow along, navigate to a existing HTML page (like your passion
 ### Step 1: Create a CSS file
 The first thing we need to do is create a css file that our html page can get its styling from. In your terminal or navigator, create a new file called `style.css`.
 
-[ADD IN GIF]
+![touch-style-css](https://s3.amazonaws.com/upperline/curriculum-assets/css/touch-style-css.gif)
 
 ### Step 2:Link to your CSS file from your HTML page
 We need to connect our `style.css` page to the HTML page. Inside the `<head>` tag of your html page, we're going to add a `<link>` tag to connect to our new stylesheet. Add the following element to your `<head>` section:
@@ -26,7 +26,7 @@ We need to connect our `style.css` page to the HTML page. Inside the `<head>` ta
 
 (make sure that your html page and your css stylesheet are at the same folder level)
 
-[ADD IN GIF]
+![link-style-css](https://s3.amazonaws.com/upperline/curriculum-assets/css/link-style-css.gif)
 
 ### Step 3: Select and Style elements, by element
 Try selecting an element and styling it! In your stylesheet type:
@@ -36,9 +36,13 @@ h1 {
   font-size: 25px;
 }
 ```
-This will look for all h1 elements and style them with a font size of 25 pixels, and blue color. Open up your webpage to check it out!
+This will look for all h1 elements and style them with a font size of 25 pixels, and blue color. Open up your webpage to check it out! Remember to save your style.css page or any changes to your HTML page before viewing the webpage. 
 
-[ADD IN GIF]
+
+![h1-styling](https://s3.amazonaws.com/upperline/curriculum-assets/css/h1-styling.gif)
+
+
+![view-css-styling](https://s3.amazonaws.com/upperline/curriculum-assets/css/view-css-styling.gif)
 
 ## Good Starter Properties To Play With
   + color
@@ -48,12 +52,12 @@ This will look for all h1 elements and style them with a font size of 25 pixels,
   + text-align
   + border-color
 
-  This is just a little tiny list to start playing with. Look for more in the resources or by Googling "CSS Properties list"
+  This is just a tiny little list to start playing with. Look for more in Resources or by Googling "CSS Properties list".
 
 ## A Note About Color
-Color in CSS can be tackled a few different way:
+Color in CSS can be tackled a few different ways:
 + Using key words: There are 140 differnt color names which your web brower can make sense of--basically every crayon color you could want from "cornslik" to "rebeccapurple." You can find a [complete list of colors here](http://www.w3schools.com/colors/colors_names.asp).
-+ Using Hex Codes: `#4286f4`, `#336034`, etc. You can find hex codes by using this cool [color picker tool](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool)
++ Using Hex Codes: `#4286f4`, `#336034`, etc. You can find hex codes by using this cool [color picker tool](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool).
 + Using RGB: `rgb(255,0,0)`, `rgb(120,200,0)`, etc. RGB Stands for red, green blue. You can also use the [color picker tool](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool) to get rgb values (each value has to be between 0 and 255).
 
 ## Resources
